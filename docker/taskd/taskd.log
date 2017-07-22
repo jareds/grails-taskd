@@ -1,0 +1,1005 @@
+2016-08-13 17:00:43 ==== taskd 1.1.0 8b19636 ====
+2016-08-13 17:00:43 Serving from /var/taskd
+2016-08-13 17:00:43 Using address 0.0.0.0
+2016-08-13 17:00:43 Using port 53589
+2016-08-13 17:00:43 Using family 
+2016-08-13 17:00:43 Queue size 10 requests
+2016-08-13 17:00:43 Request size limit 1048576 bytes
+2016-08-13 17:00:43 IP logging on
+2016-08-13 17:00:43 CA          /var/taskd/ca.cert.pem
+2016-08-13 17:00:43 Certificate /var/taskd/server.cert.pem
+2016-08-13 17:00:43 Private Key /var/taskd/server.key.pem
+2016-08-13 17:00:43 CRL         /var/taskd/server.crl.pem
+2016-08-13 17:00:43 Server starting
+2016-08-13 17:00:43 Server ready
+2016-08-13 17:08:52 [1] 'sync' from 'private/user' using 'task 2.5.1' at 172.17.0.1:57246
+2016-08-13 17:08:52 [1] Client key '' + 4 txns
+2016-08-13 17:08:52 [1] Loaded 0 records
+2016-08-13 17:08:52 [1] Subset 0 tasks
+2016-08-13 17:08:52 [1] Stored 4 tasks, merged 0 tasks
+2016-08-13 17:08:52 [1] New sync key 'b8093c3b-bab5-47ca-a292-092beffb3951'
+2016-08-13 17:08:52 [1] Wrote 5
+2016-08-13 17:08:52 [1] Serviced in 0.006796s
+2016-08-14 17:36:33 [2] ERROR: Malformed message
+2016-08-14 17:36:33 [2] Serviced in 0.082345s
+2016-08-14 17:38:58 INFO Auth failure: org 'private' user 'jared' bad key
+2016-08-14 17:38:58 [3] Serviced in 0.009981s
+2016-08-14 17:43:44 [4] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57252
+2016-08-14 17:43:44 [4] Client key '' + 0 txns
+2016-08-14 17:43:44 [4] Loaded 5 records
+2016-08-14 17:43:44 [4] Subset 4 tasks
+2016-08-14 17:43:44 [4] Stored 0 tasks, merged 0 tasks
+2016-08-14 17:43:44 [4] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-14 17:43:44 [4] Serviced in 0.008537s
+2016-08-15 02:08:00 [5] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57254
+2016-08-15 02:08:00 [5] Client key '' + 0 txns
+2016-08-15 02:08:00 [5] Loaded 5 records
+2016-08-15 02:08:00 [5] Subset 4 tasks
+2016-08-15 02:08:00 [5] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:08:00 [5] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:08:00 [5] Serviced in 0.005656s
+2016-08-15 02:16:15 [6] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57256
+2016-08-15 02:16:15 [6] Client key '' + 0 txns
+2016-08-15 02:16:15 [6] Loaded 5 records
+2016-08-15 02:16:15 [6] Subset 4 tasks
+2016-08-15 02:16:15 [6] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:16:15 [6] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:16:15 [6] Serviced in 0.004960s
+2016-08-15 02:18:28 [7] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57258
+2016-08-15 02:18:28 [7] Client key '' + 0 txns
+2016-08-15 02:18:28 [7] Loaded 5 records
+2016-08-15 02:18:28 [7] Subset 4 tasks
+2016-08-15 02:18:28 [7] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:18:28 [7] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:18:28 [7] Serviced in 0.005758s
+2016-08-15 02:22:16 [8] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57260
+2016-08-15 02:22:16 [8] Client key '' + 0 txns
+2016-08-15 02:22:16 [8] Loaded 5 records
+2016-08-15 02:22:16 [8] Subset 4 tasks
+2016-08-15 02:22:16 [8] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:22:16 [8] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:22:16 [8] Serviced in 0.005193s
+2016-08-15 02:22:57 [9] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57262
+2016-08-15 02:22:57 [9] Client key '' + 0 txns
+2016-08-15 02:22:57 [9] Loaded 5 records
+2016-08-15 02:22:57 [9] Subset 4 tasks
+2016-08-15 02:22:57 [9] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:22:57 [9] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:22:57 [9] Serviced in 0.012380s
+2016-08-15 02:24:19 [10] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57264
+2016-08-15 02:24:19 [10] Client key '' + 0 txns
+2016-08-15 02:24:19 [10] Loaded 5 records
+2016-08-15 02:24:19 [10] Subset 4 tasks
+2016-08-15 02:24:19 [10] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:24:19 [10] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:24:19 [10] Serviced in 0.005576s
+2016-08-15 02:25:31 [11] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57266
+2016-08-15 02:25:31 [11] Client key '' + 0 txns
+2016-08-15 02:25:31 [11] Loaded 5 records
+2016-08-15 02:25:31 [11] Subset 4 tasks
+2016-08-15 02:25:31 [11] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:25:31 [11] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:25:31 [11] Serviced in 0.004809s
+2016-08-15 02:31:23 [12] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57268
+2016-08-15 02:31:23 [12] Client key '' + 0 txns
+2016-08-15 02:31:23 [12] Loaded 5 records
+2016-08-15 02:31:23 [12] Subset 4 tasks
+2016-08-15 02:31:23 [12] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:31:23 [12] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:31:23 [12] Serviced in 0.004998s
+2016-08-15 02:32:26 [13] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57270
+2016-08-15 02:32:26 [13] Client key '' + 0 txns
+2016-08-15 02:32:26 [13] Loaded 5 records
+2016-08-15 02:32:26 [13] Subset 4 tasks
+2016-08-15 02:32:26 [13] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:32:26 [13] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:32:26 [13] Serviced in 0.006389s
+2016-08-15 02:32:52 [14] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57272
+2016-08-15 02:32:52 [14] Client key '' + 0 txns
+2016-08-15 02:32:52 [14] Loaded 5 records
+2016-08-15 02:32:52 [14] Subset 4 tasks
+2016-08-15 02:32:52 [14] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:32:52 [14] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:32:52 [14] Serviced in 0.004997s
+2016-08-15 02:33:48 [15] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57274
+2016-08-15 02:33:48 [15] Client key '' + 0 txns
+2016-08-15 02:33:48 [15] Loaded 5 records
+2016-08-15 02:33:48 [15] Subset 4 tasks
+2016-08-15 02:33:48 [15] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:33:48 [15] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:33:48 [15] Serviced in 0.005245s
+2016-08-15 02:44:32 [16] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57276
+2016-08-15 02:44:32 [16] Client key '' + 0 txns
+2016-08-15 02:44:32 [16] Loaded 5 records
+2016-08-15 02:44:32 [16] Subset 4 tasks
+2016-08-15 02:44:32 [16] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:44:32 [16] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:44:32 [16] Serviced in 0.005146s
+2016-08-15 02:45:23 [17] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57278
+2016-08-15 02:45:23 [17] Client key '' + 0 txns
+2016-08-15 02:45:23 [17] Loaded 5 records
+2016-08-15 02:45:23 [17] Subset 4 tasks
+2016-08-15 02:45:23 [17] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:45:23 [17] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:45:23 [17] Serviced in 0.005503s
+2016-08-15 02:46:27 [18] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57280
+2016-08-15 02:46:27 [18] Client key '' + 0 txns
+2016-08-15 02:46:27 [18] Loaded 5 records
+2016-08-15 02:46:27 [18] Subset 4 tasks
+2016-08-15 02:46:27 [18] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:46:27 [18] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:46:27 [18] Serviced in 0.005470s
+2016-08-15 02:47:12 [19] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57282
+2016-08-15 02:47:12 [19] Client key '' + 0 txns
+2016-08-15 02:47:12 [19] Loaded 5 records
+2016-08-15 02:47:12 [19] Subset 4 tasks
+2016-08-15 02:47:12 [19] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:47:12 [19] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:47:12 [19] Serviced in 0.008019s
+2016-08-15 02:48:00 [20] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57284
+2016-08-15 02:48:00 [20] Client key '' + 0 txns
+2016-08-15 02:48:00 [20] Loaded 5 records
+2016-08-15 02:48:00 [20] Subset 4 tasks
+2016-08-15 02:48:00 [20] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:48:00 [20] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:48:00 [20] Serviced in 0.005786s
+2016-08-15 02:50:39 [21] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57286
+2016-08-15 02:50:39 [21] Client key '' + 0 txns
+2016-08-15 02:50:39 [21] Loaded 5 records
+2016-08-15 02:50:39 [21] Subset 4 tasks
+2016-08-15 02:50:39 [21] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:50:39 [21] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:50:39 [21] Serviced in 0.008095s
+2016-08-15 02:51:59 [22] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57288
+2016-08-15 02:51:59 [22] Client key '' + 0 txns
+2016-08-15 02:51:59 [22] Loaded 5 records
+2016-08-15 02:51:59 [22] Subset 4 tasks
+2016-08-15 02:51:59 [22] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:51:59 [22] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:51:59 [22] Serviced in 0.007796s
+2016-08-15 02:52:48 [23] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57290
+2016-08-15 02:52:48 [23] Client key '' + 0 txns
+2016-08-15 02:52:48 [23] Loaded 5 records
+2016-08-15 02:52:48 [23] Subset 4 tasks
+2016-08-15 02:52:48 [23] Stored 0 tasks, merged 0 tasks
+2016-08-15 02:52:48 [23] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-15 02:52:48 [23] Serviced in 0.004905s
+2016-08-16 01:50:55 [24] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57292
+2016-08-16 01:50:55 [24] Client key '' + 0 txns
+2016-08-16 01:50:55 [24] Loaded 5 records
+2016-08-16 01:50:55 [24] Subset 4 tasks
+2016-08-16 01:50:55 [24] Stored 0 tasks, merged 0 tasks
+2016-08-16 01:50:55 [24] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 01:50:55 [24] Serviced in 0.005009s
+2016-08-16 01:58:10 [25] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57294
+2016-08-16 01:58:10 [25] Client key '' + 0 txns
+2016-08-16 01:58:10 [25] Loaded 5 records
+2016-08-16 01:58:10 [25] Subset 4 tasks
+2016-08-16 01:58:10 [25] Stored 0 tasks, merged 0 tasks
+2016-08-16 01:58:10 [25] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 01:58:10 [25] Serviced in 0.005466s
+2016-08-16 01:59:23 [26] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57296
+2016-08-16 01:59:23 [26] Client key '' + 0 txns
+2016-08-16 01:59:23 [26] Loaded 5 records
+2016-08-16 01:59:23 [26] Subset 4 tasks
+2016-08-16 01:59:23 [26] Stored 0 tasks, merged 0 tasks
+2016-08-16 01:59:23 [26] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 01:59:23 [26] Serviced in 0.005376s
+2016-08-16 02:00:26 [27] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57298
+2016-08-16 02:00:26 [27] Client key '' + 0 txns
+2016-08-16 02:00:26 [27] Loaded 5 records
+2016-08-16 02:00:26 [27] Subset 4 tasks
+2016-08-16 02:00:26 [27] Stored 0 tasks, merged 0 tasks
+2016-08-16 02:00:26 [27] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 02:00:26 [27] Serviced in 0.005203s
+2016-08-16 02:01:07 [28] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57300
+2016-08-16 02:01:07 [28] Client key '' + 0 txns
+2016-08-16 02:01:07 [28] Loaded 5 records
+2016-08-16 02:01:07 [28] Subset 4 tasks
+2016-08-16 02:01:07 [28] Stored 0 tasks, merged 0 tasks
+2016-08-16 02:01:07 [28] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 02:01:07 [28] Serviced in 0.007497s
+2016-08-16 02:07:06 [29] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57302
+2016-08-16 02:07:06 [29] Client key '' + 0 txns
+2016-08-16 02:07:06 [29] Loaded 5 records
+2016-08-16 02:07:06 [29] Subset 4 tasks
+2016-08-16 02:07:06 [29] Stored 0 tasks, merged 0 tasks
+2016-08-16 02:07:06 [29] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 02:07:06 [29] Serviced in 0.005416s
+2016-08-16 02:14:34 [30] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57304
+2016-08-16 02:14:34 [30] Client key '' + 0 txns
+2016-08-16 02:14:34 [30] Loaded 5 records
+2016-08-16 02:14:34 [30] Subset 4 tasks
+2016-08-16 02:14:34 [30] Stored 0 tasks, merged 0 tasks
+2016-08-16 02:14:34 [30] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 02:14:34 [30] Serviced in 0.005701s
+2016-08-16 02:16:23 [31] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57306
+2016-08-16 02:16:23 [31] Client key '' + 0 txns
+2016-08-16 02:16:23 [31] Loaded 5 records
+2016-08-16 02:16:23 [31] Subset 4 tasks
+2016-08-16 02:16:23 [31] Stored 0 tasks, merged 0 tasks
+2016-08-16 02:16:23 [31] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 02:16:23 [31] Serviced in 0.004874s
+2016-08-16 02:17:09 [32] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57308
+2016-08-16 02:17:09 [32] Client key '' + 0 txns
+2016-08-16 02:17:09 [32] Loaded 5 records
+2016-08-16 02:17:09 [32] Subset 4 tasks
+2016-08-16 02:17:09 [32] Stored 0 tasks, merged 0 tasks
+2016-08-16 02:17:09 [32] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 02:17:09 [32] Serviced in 0.005302s
+2016-08-16 02:20:07 [33] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57310
+2016-08-16 02:20:07 [33] Client key '' + 0 txns
+2016-08-16 02:20:07 [33] Loaded 5 records
+2016-08-16 02:20:07 [33] Subset 4 tasks
+2016-08-16 02:20:07 [33] Stored 0 tasks, merged 0 tasks
+2016-08-16 02:20:07 [33] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 02:20:07 [33] Serviced in 0.005017s
+2016-08-16 02:20:44 [34] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57312
+2016-08-16 02:20:44 [34] Client key '' + 0 txns
+2016-08-16 02:20:44 [34] Loaded 5 records
+2016-08-16 02:20:44 [34] Subset 4 tasks
+2016-08-16 02:20:44 [34] Stored 0 tasks, merged 0 tasks
+2016-08-16 02:20:44 [34] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 02:20:44 [34] Serviced in 0.010684s
+2016-08-16 02:21:28 [35] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57314
+2016-08-16 02:21:28 [35] Client key '' + 0 txns
+2016-08-16 02:21:28 [35] Loaded 5 records
+2016-08-16 02:21:28 [35] Subset 4 tasks
+2016-08-16 02:21:28 [35] Stored 0 tasks, merged 0 tasks
+2016-08-16 02:21:28 [35] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 02:21:28 [35] Serviced in 0.005643s
+2016-08-16 22:39:37 [36] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57316
+2016-08-16 22:39:37 [36] Client key '' + 0 txns
+2016-08-16 22:39:37 [36] Loaded 5 records
+2016-08-16 22:39:37 [36] Subset 4 tasks
+2016-08-16 22:39:37 [36] Stored 0 tasks, merged 0 tasks
+2016-08-16 22:39:37 [36] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 22:39:37 [36] Serviced in 0.005358s
+2016-08-16 22:41:42 [37] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57318
+2016-08-16 22:41:42 [37] Client key '' + 0 txns
+2016-08-16 22:41:42 [37] Loaded 5 records
+2016-08-16 22:41:42 [37] Subset 4 tasks
+2016-08-16 22:41:42 [37] Stored 0 tasks, merged 0 tasks
+2016-08-16 22:41:42 [37] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 22:41:42 [37] Serviced in 0.005169s
+2016-08-16 22:43:55 [38] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57320
+2016-08-16 22:43:55 [38] Client key '' + 0 txns
+2016-08-16 22:43:55 [38] Loaded 5 records
+2016-08-16 22:43:55 [38] Subset 4 tasks
+2016-08-16 22:43:55 [38] Stored 0 tasks, merged 0 tasks
+2016-08-16 22:43:55 [38] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-16 22:43:55 [38] Serviced in 0.010601s
+2016-08-17 00:01:00 [39] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57322
+2016-08-17 00:01:00 [39] Client key '' + 0 txns
+2016-08-17 00:01:00 [39] Loaded 5 records
+2016-08-17 00:01:00 [39] Subset 4 tasks
+2016-08-17 00:01:00 [39] Stored 0 tasks, merged 0 tasks
+2016-08-17 00:01:00 [39] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-17 00:01:00 [39] Serviced in 0.005344s
+2016-08-17 00:02:01 [40] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:57324
+2016-08-17 00:02:01 [40] Client key '' + 0 txns
+2016-08-17 00:02:01 [40] Loaded 5 records
+2016-08-17 00:02:01 [40] Subset 4 tasks
+2016-08-17 00:02:01 [40] Stored 0 tasks, merged 0 tasks
+2016-08-17 00:02:01 [40] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-17 00:02:01 [40] Serviced in 0.005405s
+2016-08-23 02:22:06 ==== taskd 1.1.0 8b19636 ====
+2016-08-23 02:22:06 Serving from /var/taskd
+2016-08-23 02:22:06 Using address 0.0.0.0
+2016-08-23 02:22:06 Using port 53589
+2016-08-23 02:22:06 Using family 
+2016-08-23 02:22:06 Queue size 10 requests
+2016-08-23 02:22:06 Request size limit 1048576 bytes
+2016-08-23 02:22:06 IP logging on
+2016-08-23 02:22:06 CA          /var/taskd/ca.cert.pem
+2016-08-23 02:22:06 Certificate /var/taskd/server.cert.pem
+2016-08-23 02:22:06 Private Key /var/taskd/server.key.pem
+2016-08-23 02:22:06 CRL         /var/taskd/server.crl.pem
+2016-08-23 02:22:06 Server starting
+2016-08-23 02:22:07 Server ready
+2016-08-23 02:22:33 [1] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:50578
+2016-08-23 02:22:33 [1] Client key '' + 0 txns
+2016-08-23 02:22:33 [1] Loaded 5 records
+2016-08-23 02:22:33 [1] Subset 4 tasks
+2016-08-23 02:22:33 [1] Stored 0 tasks, merged 0 tasks
+2016-08-23 02:22:33 [1] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-23 02:22:33 [1] Serviced in 0.005498s
+2016-08-23 02:25:21 [2] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:50580
+2016-08-23 02:25:21 [2] Client key '' + 0 txns
+2016-08-23 02:25:21 [2] Loaded 5 records
+2016-08-23 02:25:21 [2] Subset 4 tasks
+2016-08-23 02:25:21 [2] Stored 0 tasks, merged 0 tasks
+2016-08-23 02:25:21 [2] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-23 02:25:21 [2] Serviced in 0.005549s
+2016-08-23 02:29:30 [3] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:50582
+2016-08-23 02:29:30 [3] Client key '' + 0 txns
+2016-08-23 02:29:30 [3] Loaded 5 records
+2016-08-23 02:29:30 [3] Subset 4 tasks
+2016-08-23 02:29:30 [3] Stored 0 tasks, merged 0 tasks
+2016-08-23 02:29:30 [3] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-23 02:29:30 [3] Serviced in 0.005148s
+2016-08-23 02:30:50 [4] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:50584
+2016-08-23 02:30:50 [4] Client key '' + 0 txns
+2016-08-23 02:30:50 [4] Loaded 5 records
+2016-08-23 02:30:50 [4] Subset 4 tasks
+2016-08-23 02:30:50 [4] Stored 0 tasks, merged 0 tasks
+2016-08-23 02:30:50 [4] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-23 02:30:50 [4] Serviced in 0.005164s
+2016-08-23 02:31:25 [5] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:50586
+2016-08-23 02:31:25 [5] Client key '' + 0 txns
+2016-08-23 02:31:25 [5] Loaded 5 records
+2016-08-23 02:31:25 [5] Subset 4 tasks
+2016-08-23 02:31:25 [5] Stored 0 tasks, merged 0 tasks
+2016-08-23 02:31:25 [5] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-23 02:31:25 [5] Serviced in 0.005476s
+2016-08-25 01:34:43 ==== taskd 1.1.0 8b19636 ====
+2016-08-25 01:34:43 Serving from /var/taskd
+2016-08-25 01:34:43 Using address 0.0.0.0
+2016-08-25 01:34:43 Using port 53589
+2016-08-25 01:34:43 Using family 
+2016-08-25 01:34:43 Queue size 10 requests
+2016-08-25 01:34:43 Request size limit 1048576 bytes
+2016-08-25 01:34:43 IP logging on
+2016-08-25 01:34:43 CA          /var/taskd/ca.cert.pem
+2016-08-25 01:34:43 Certificate /var/taskd/server.cert.pem
+2016-08-25 01:34:43 Private Key /var/taskd/server.key.pem
+2016-08-25 01:34:43 CRL         /var/taskd/server.crl.pem
+2016-08-25 01:34:43 Server starting
+2016-08-25 01:34:43 Server ready
+2016-08-25 01:39:21 [1] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37206
+2016-08-25 01:39:21 [1] Client key '' + 0 txns
+2016-08-25 01:39:21 [1] Loaded 5 records
+2016-08-25 01:39:21 [1] Subset 4 tasks
+2016-08-25 01:39:21 [1] Stored 0 tasks, merged 0 tasks
+2016-08-25 01:39:21 [1] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 01:39:21 [1] Serviced in 0.006881s
+2016-08-25 01:50:38 Error: The specified session has been invalidated for some reason.
+2016-08-25 01:51:36 [2] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37210
+2016-08-25 01:51:36 [2] Client key '' + 0 txns
+2016-08-25 01:51:36 [2] Loaded 5 records
+2016-08-25 01:51:36 [2] Subset 4 tasks
+2016-08-25 01:51:36 [2] Stored 0 tasks, merged 0 tasks
+2016-08-25 01:51:36 [2] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 01:51:36 [2] Serviced in 0.004872s
+2016-08-25 01:51:36 [3] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37212
+2016-08-25 01:51:36 [3] Client key '' + 0 txns
+2016-08-25 01:51:36 [3] Loaded 5 records
+2016-08-25 01:51:36 [3] Subset 4 tasks
+2016-08-25 01:51:36 [3] Stored 0 tasks, merged 0 tasks
+2016-08-25 01:51:36 [3] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 01:51:36 [3] Serviced in 0.001617s
+2016-08-25 01:52:38 [4] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37214
+2016-08-25 01:52:38 [4] Client key '' + 0 txns
+2016-08-25 01:52:38 [4] Loaded 5 records
+2016-08-25 01:52:38 [4] Subset 4 tasks
+2016-08-25 01:52:38 [4] Stored 0 tasks, merged 0 tasks
+2016-08-25 01:52:38 [4] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 01:52:38 [4] Serviced in 0.004813s
+2016-08-25 01:52:38 [5] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37216
+2016-08-25 01:52:38 [5] Client key '' + 0 txns
+2016-08-25 01:52:38 [5] Loaded 5 records
+2016-08-25 01:52:38 [5] Subset 4 tasks
+2016-08-25 01:52:38 [5] Stored 0 tasks, merged 0 tasks
+2016-08-25 01:52:38 [5] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 01:52:38 [5] Serviced in 0.001241s
+2016-08-25 01:53:44 [6] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37218
+2016-08-25 01:53:44 [6] Client key '' + 0 txns
+2016-08-25 01:53:44 [6] Loaded 5 records
+2016-08-25 01:53:44 [6] Subset 4 tasks
+2016-08-25 01:53:44 [6] Stored 0 tasks, merged 0 tasks
+2016-08-25 01:53:44 [6] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 01:53:44 [6] Serviced in 0.005194s
+2016-08-25 01:55:26 [7] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37220
+2016-08-25 01:55:26 [7] Client key '' + 0 txns
+2016-08-25 01:55:26 [7] Loaded 5 records
+2016-08-25 01:55:26 [7] Subset 4 tasks
+2016-08-25 01:55:26 [7] Stored 0 tasks, merged 0 tasks
+2016-08-25 01:55:26 [7] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 01:55:26 [7] Serviced in 0.005611s
+2016-08-25 01:57:02 [8] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37222
+2016-08-25 01:57:02 [8] Client key '' + 0 txns
+2016-08-25 01:57:02 [8] Loaded 5 records
+2016-08-25 01:57:02 [8] Subset 4 tasks
+2016-08-25 01:57:02 [8] Stored 0 tasks, merged 0 tasks
+2016-08-25 01:57:02 [8] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 01:57:02 [8] Serviced in 0.004746s
+2016-08-25 01:58:03 [9] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37224
+2016-08-25 01:58:03 [9] Client key '' + 0 txns
+2016-08-25 01:58:03 [9] Loaded 5 records
+2016-08-25 01:58:03 [9] Subset 4 tasks
+2016-08-25 01:58:03 [9] Stored 0 tasks, merged 0 tasks
+2016-08-25 01:58:03 [9] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 01:58:03 [9] Serviced in 0.005869s
+2016-08-25 01:58:04 [10] ERROR: Message protocol should be 'v1'
+2016-08-25 01:58:04 [10] Serviced in 0.000757s
+2016-08-25 01:59:27 [11] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37228
+2016-08-25 01:59:27 [11] Client key '' + 0 txns
+2016-08-25 01:59:27 [11] Loaded 5 records
+2016-08-25 01:59:27 [11] Subset 4 tasks
+2016-08-25 01:59:27 [11] Stored 0 tasks, merged 0 tasks
+2016-08-25 01:59:27 [11] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 01:59:27 [11] Serviced in 0.008470s
+2016-08-25 01:59:27 [12] ERROR: Message protocol should be 'v1'
+2016-08-25 01:59:27 [12] Serviced in 0.001150s
+2016-08-25 02:00:10 [13] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37232
+2016-08-25 02:00:10 [13] Client key '' + 0 txns
+2016-08-25 02:00:10 [13] Loaded 5 records
+2016-08-25 02:00:10 [13] Subset 4 tasks
+2016-08-25 02:00:10 [13] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:00:10 [13] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:00:10 [13] Serviced in 0.005406s
+2016-08-25 02:00:10 [14] ERROR: Malformed message header 'b8093c3b-bab5-47ca-a292-092beffb3951'
+2016-08-25 02:00:10 [14] Serviced in 0.001218s
+2016-08-25 02:01:05 [15] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37236
+2016-08-25 02:01:05 [15] Client key '' + 0 txns
+2016-08-25 02:01:05 [15] Loaded 5 records
+2016-08-25 02:01:05 [15] Subset 4 tasks
+2016-08-25 02:01:05 [15] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:01:05 [15] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:01:05 [15] Serviced in 0.007602s
+2016-08-25 02:01:05 [16] ERROR: Malformed message header 'b8093c3b-bab5-47ca-a292-092beffb3951'
+2016-08-25 02:01:05 [16] Serviced in 0.001073s
+2016-08-25 02:02:38 [17] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37240
+2016-08-25 02:02:38 [17] Client key '' + 0 txns
+2016-08-25 02:02:38 [17] Loaded 5 records
+2016-08-25 02:02:38 [17] Subset 4 tasks
+2016-08-25 02:02:38 [17] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:02:38 [17] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:02:38 [17] Serviced in 0.004980s
+2016-08-25 02:02:38 [18] ERROR: Malformed message header 'b8093c3b-bab5-47ca-a292-092beffb3951'
+2016-08-25 02:02:38 [18] Serviced in 0.000910s
+2016-08-25 02:04:27 [19] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37244
+2016-08-25 02:04:27 [19] Client key '' + 0 txns
+2016-08-25 02:04:27 [19] Loaded 5 records
+2016-08-25 02:04:27 [19] Subset 4 tasks
+2016-08-25 02:04:27 [19] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:04:27 [19] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:04:27 [19] Serviced in 0.005155s
+2016-08-25 02:04:27 [20] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37246
+2016-08-25 02:04:27 [20] Client key '' + 0 txns
+2016-08-25 02:04:27 [20] Loaded 5 records
+2016-08-25 02:04:27 [20] Subset 4 tasks
+2016-08-25 02:04:27 [20] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:04:27 [20] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:04:27 [20] Serviced in 0.001279s
+2016-08-25 02:06:55 [21] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37248
+2016-08-25 02:06:55 [21] Client key '' + 0 txns
+2016-08-25 02:06:55 [21] Loaded 5 records
+2016-08-25 02:06:55 [21] Subset 4 tasks
+2016-08-25 02:06:55 [21] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:06:55 [21] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:06:55 [21] Serviced in 0.004749s
+2016-08-25 02:06:55 [22] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37250
+2016-08-25 02:06:55 [22] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-08-25 02:06:55 [22] Loaded 5 records
+2016-08-25 02:06:55 [22] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-08-25 02:06:55 [22] Subset 0 tasks
+2016-08-25 02:06:55 [22] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:06:55 [22] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:06:55 [22] No change
+2016-08-25 02:06:55 [22] Serviced in 0.001278s
+2016-08-25 02:10:43 [23] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37252
+2016-08-25 02:10:43 [23] Client key '' + 0 txns
+2016-08-25 02:10:43 [23] Loaded 5 records
+2016-08-25 02:10:43 [23] Subset 4 tasks
+2016-08-25 02:10:43 [23] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:10:43 [23] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:10:43 [23] Serviced in 0.004531s
+2016-08-25 02:10:44 [24] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37254
+2016-08-25 02:10:44 [24] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-08-25 02:10:44 [24] Loaded 5 records
+2016-08-25 02:10:44 [24] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-08-25 02:10:44 [24] Subset 0 tasks
+2016-08-25 02:10:44 [24] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:10:44 [24] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:10:44 [24] No change
+2016-08-25 02:10:44 [24] Serviced in 0.001072s
+2016-08-25 02:12:43 [25] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37256
+2016-08-25 02:12:43 [25] Client key '' + 0 txns
+2016-08-25 02:12:43 [25] Loaded 5 records
+2016-08-25 02:12:43 [25] Subset 4 tasks
+2016-08-25 02:12:43 [25] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:12:43 [25] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:12:43 [25] Serviced in 0.005402s
+2016-08-25 02:12:43 [26] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37258
+2016-08-25 02:12:43 [26] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-08-25 02:12:43 [26] Loaded 5 records
+2016-08-25 02:12:43 [26] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-08-25 02:12:43 [26] Subset 0 tasks
+2016-08-25 02:12:43 [26] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:12:43 [26] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:12:43 [26] No change
+2016-08-25 02:12:43 [26] Serviced in 0.001208s
+2016-08-25 02:13:32 [27] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37260
+2016-08-25 02:13:32 [27] Client key '' + 0 txns
+2016-08-25 02:13:32 [27] Loaded 5 records
+2016-08-25 02:13:32 [27] Subset 4 tasks
+2016-08-25 02:13:32 [27] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:13:32 [27] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:13:32 [27] Serviced in 0.008376s
+2016-08-25 02:13:32 [28] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37262
+2016-08-25 02:13:32 [28] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-08-25 02:13:32 [28] Loaded 5 records
+2016-08-25 02:13:32 [28] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-08-25 02:13:32 [28] Subset 0 tasks
+2016-08-25 02:13:32 [28] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:13:32 [28] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:13:32 [28] No change
+2016-08-25 02:13:32 [28] Serviced in 0.005740s
+2016-08-25 02:14:06 [29] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37264
+2016-08-25 02:14:06 [29] Client key '' + 0 txns
+2016-08-25 02:14:06 [29] Loaded 5 records
+2016-08-25 02:14:06 [29] Subset 4 tasks
+2016-08-25 02:14:06 [29] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:14:06 [29] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:14:06 [29] Serviced in 0.005110s
+2016-08-25 02:14:06 [30] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37266
+2016-08-25 02:14:06 [30] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-08-25 02:14:06 [30] Loaded 5 records
+2016-08-25 02:14:06 [30] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-08-25 02:14:06 [30] Subset 0 tasks
+2016-08-25 02:14:06 [30] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:14:06 [30] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:14:06 [30] No change
+2016-08-25 02:14:06 [30] Serviced in 0.001659s
+2016-08-25 02:14:07 [31] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:37268
+2016-08-25 02:14:07 [31] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-08-25 02:14:07 [31] Loaded 5 records
+2016-08-25 02:14:07 [31] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-08-25 02:14:07 [31] Subset 0 tasks
+2016-08-25 02:14:07 [31] Stored 0 tasks, merged 0 tasks
+2016-08-25 02:14:07 [31] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-08-25 02:14:07 [31] No change
+2016-08-25 02:14:07 [31] Serviced in 0.001878s
+2016-09-26 02:01:41 ==== taskd 1.1.0 8b19636 ====
+2016-09-26 02:01:41 Serving from /var/taskd
+2016-09-26 02:01:41 Using address 0.0.0.0
+2016-09-26 02:01:41 Using port 53589
+2016-09-26 02:01:41 Using family 
+2016-09-26 02:01:41 Queue size 10 requests
+2016-09-26 02:01:41 Request size limit 1048576 bytes
+2016-09-26 02:01:41 IP logging on
+2016-09-26 02:01:41 CA          /var/taskd/ca.cert.pem
+2016-09-26 02:01:41 Certificate /var/taskd/server.cert.pem
+2016-09-26 02:01:41 Private Key /var/taskd/server.key.pem
+2016-09-26 02:01:41 CRL         /var/taskd/server.crl.pem
+2016-09-26 02:01:41 Server starting
+2016-09-26 02:01:41 Server ready
+2016-09-26 02:27:07 [1] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:39178
+2016-09-26 02:27:07 [1] Client key '' + 0 txns
+2016-09-26 02:27:07 [1] Loaded 5 records
+2016-09-26 02:27:07 [1] Subset 4 tasks
+2016-09-26 02:27:07 [1] Stored 0 tasks, merged 0 tasks
+2016-09-26 02:27:07 [1] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-09-26 02:27:07 [1] Serviced in 0.035563s
+2016-09-26 02:27:07 [2] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:39180
+2016-09-26 02:27:07 [2] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-09-26 02:27:07 [2] Loaded 5 records
+2016-09-26 02:27:07 [2] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-09-26 02:27:07 [2] Subset 0 tasks
+2016-09-26 02:27:07 [2] Stored 0 tasks, merged 0 tasks
+2016-09-26 02:27:07 [2] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-09-26 02:27:07 [2] No change
+2016-09-26 02:27:07 [2] Serviced in 0.001000s
+2016-09-26 02:27:07 [3] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:39182
+2016-09-26 02:27:07 [3] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-09-26 02:27:07 [3] Loaded 5 records
+2016-09-26 02:27:07 [3] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-09-26 02:27:07 [3] Subset 0 tasks
+2016-09-26 02:27:07 [3] Stored 0 tasks, merged 0 tasks
+2016-09-26 02:27:07 [3] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-09-26 02:27:07 [3] No change
+2016-09-26 02:27:07 [3] Serviced in 0.001180s
+2016-09-26 02:45:45 [4] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:39184
+2016-09-26 02:45:45 [4] Client key '' + 0 txns
+2016-09-26 02:45:45 [4] Loaded 5 records
+2016-09-26 02:45:45 [4] Subset 4 tasks
+2016-09-26 02:45:45 [4] Stored 0 tasks, merged 0 tasks
+2016-09-26 02:45:45 [4] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-09-26 02:45:45 [4] Serviced in 0.005082s
+2016-09-26 02:45:45 [5] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:39186
+2016-09-26 02:45:45 [5] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-09-26 02:45:45 [5] Loaded 5 records
+2016-09-26 02:45:45 [5] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-09-26 02:45:45 [5] Subset 0 tasks
+2016-09-26 02:45:45 [5] Stored 0 tasks, merged 0 tasks
+2016-09-26 02:45:45 [5] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-09-26 02:45:45 [5] No change
+2016-09-26 02:45:45 [5] Serviced in 0.000957s
+2016-09-26 02:46:49 [6] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:39188
+2016-09-26 02:46:49 [6] Client key '' + 0 txns
+2016-09-26 02:46:49 [6] Loaded 5 records
+2016-09-26 02:46:49 [6] Subset 4 tasks
+2016-09-26 02:46:49 [6] Stored 0 tasks, merged 0 tasks
+2016-09-26 02:46:49 [6] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-09-26 02:46:49 [6] Serviced in 0.005153s
+2016-09-26 02:46:49 [7] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:39190
+2016-09-26 02:46:49 [7] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-09-26 02:46:49 [7] Loaded 5 records
+2016-09-26 02:46:49 [7] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-09-26 02:46:49 [7] Subset 0 tasks
+2016-09-26 02:46:49 [7] Stored 0 tasks, merged 0 tasks
+2016-09-26 02:46:49 [7] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-09-26 02:46:49 [7] No change
+2016-09-26 02:46:49 [7] Serviced in 0.001204s
+2016-09-26 02:48:04 [8] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:39192
+2016-09-26 02:48:04 [8] Client key '' + 0 txns
+2016-09-26 02:48:04 [8] Loaded 5 records
+2016-09-26 02:48:04 [8] Subset 4 tasks
+2016-09-26 02:48:04 [8] Stored 0 tasks, merged 0 tasks
+2016-09-26 02:48:04 [8] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-09-26 02:48:04 [8] Serviced in 0.005150s
+2016-09-26 02:48:04 [9] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:39194
+2016-09-26 02:48:04 [9] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-09-26 02:48:04 [9] Loaded 5 records
+2016-09-26 02:48:04 [9] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-09-26 02:48:04 [9] Subset 0 tasks
+2016-09-26 02:48:04 [9] Stored 0 tasks, merged 0 tasks
+2016-09-26 02:48:04 [9] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-09-26 02:48:04 [9] No change
+2016-09-26 02:48:04 [9] Serviced in 0.000963s
+2016-09-26 02:49:40 [10] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:39196
+2016-09-26 02:49:40 [10] Client key '' + 0 txns
+2016-09-26 02:49:40 [10] Loaded 5 records
+2016-09-26 02:49:40 [10] Subset 4 tasks
+2016-09-26 02:49:40 [10] Stored 0 tasks, merged 0 tasks
+2016-09-26 02:49:40 [10] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-09-26 02:49:40 [10] Serviced in 0.004802s
+2016-09-26 02:49:40 [11] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:39198
+2016-09-26 02:49:40 [11] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-09-26 02:49:40 [11] Loaded 5 records
+2016-09-26 02:49:40 [11] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-09-26 02:49:40 [11] Subset 0 tasks
+2016-09-26 02:49:40 [11] Stored 0 tasks, merged 0 tasks
+2016-09-26 02:49:40 [11] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-09-26 02:49:40 [11] No change
+2016-09-26 02:49:40 [11] Serviced in 0.001021s
+2016-09-26 02:49:40 [12] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:39200
+2016-09-26 02:49:40 [12] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-09-26 02:49:40 [12] Loaded 5 records
+2016-09-26 02:49:40 [12] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-09-26 02:49:40 [12] Subset 0 tasks
+2016-09-26 02:49:40 [12] Stored 0 tasks, merged 0 tasks
+2016-09-26 02:49:40 [12] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-09-26 02:49:40 [12] No change
+2016-09-26 02:49:40 [12] Serviced in 0.001064s
+2016-10-06 14:28:13 ==== taskd 1.1.0 8b19636 ====
+2016-10-06 14:28:13 Serving from /var/taskd
+2016-10-06 14:28:13 Using address 0.0.0.0
+2016-10-06 14:28:13 Using port 53589
+2016-10-06 14:28:13 Using family 
+2016-10-06 14:28:13 Queue size 10 requests
+2016-10-06 14:28:13 Request size limit 1048576 bytes
+2016-10-06 14:28:13 IP logging on
+2016-10-06 14:28:13 CA          /var/taskd/ca.cert.pem
+2016-10-06 14:28:13 Certificate /var/taskd/server.cert.pem
+2016-10-06 14:28:13 Private Key /var/taskd/server.key.pem
+2016-10-06 14:28:13 CRL         /var/taskd/server.crl.pem
+2016-10-06 14:28:13 Server starting
+2016-10-06 14:28:14 Server ready
+2016-10-06 15:33:22 [1] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56698
+2016-10-06 15:33:22 [1] Client key '' + 0 txns
+2016-10-06 15:33:22 [1] Loaded 5 records
+2016-10-06 15:33:22 [1] Subset 4 tasks
+2016-10-06 15:33:22 [1] Stored 0 tasks, merged 0 tasks
+2016-10-06 15:33:22 [1] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 15:33:22 [1] Serviced in 0.049081s
+2016-10-06 15:33:22 [2] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56700
+2016-10-06 15:33:22 [2] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 15:33:22 [2] Loaded 5 records
+2016-10-06 15:33:22 [2] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 15:33:22 [2] Subset 0 tasks
+2016-10-06 15:33:22 [2] Stored 0 tasks, merged 0 tasks
+2016-10-06 15:33:22 [2] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 15:33:22 [2] No change
+2016-10-06 15:33:22 [2] Serviced in 0.001133s
+2016-10-06 15:33:22 [3] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56702
+2016-10-06 15:33:22 [3] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 15:33:22 [3] Loaded 5 records
+2016-10-06 15:33:22 [3] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 15:33:22 [3] Subset 0 tasks
+2016-10-06 15:33:22 [3] Stored 0 tasks, merged 0 tasks
+2016-10-06 15:33:22 [3] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 15:33:22 [3] No change
+2016-10-06 15:33:22 [3] Serviced in 0.001022s
+2016-10-06 15:38:00 [4] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56704
+2016-10-06 15:38:00 [4] Client key '' + 0 txns
+2016-10-06 15:38:00 [4] Loaded 5 records
+2016-10-06 15:38:00 [4] Subset 4 tasks
+2016-10-06 15:38:00 [4] Stored 0 tasks, merged 0 tasks
+2016-10-06 15:38:00 [4] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 15:38:00 [4] Serviced in 0.005095s
+2016-10-06 15:38:01 [5] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56706
+2016-10-06 15:38:01 [5] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 15:38:01 [5] Loaded 5 records
+2016-10-06 15:38:01 [5] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 15:38:01 [5] Subset 0 tasks
+2016-10-06 15:38:01 [5] Stored 0 tasks, merged 0 tasks
+2016-10-06 15:38:01 [5] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 15:38:01 [5] No change
+2016-10-06 15:38:01 [5] Serviced in 0.001539s
+2016-10-06 15:38:01 [6] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56708
+2016-10-06 15:38:01 [6] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 15:38:01 [6] Loaded 5 records
+2016-10-06 15:38:01 [6] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 15:38:01 [6] Subset 0 tasks
+2016-10-06 15:38:01 [6] Stored 0 tasks, merged 0 tasks
+2016-10-06 15:38:01 [6] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 15:38:01 [6] No change
+2016-10-06 15:38:01 [6] Serviced in 0.001136s
+2016-10-06 16:07:34 [7] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56710
+2016-10-06 16:07:34 [7] Client key '' + 0 txns
+2016-10-06 16:07:34 [7] Loaded 5 records
+2016-10-06 16:07:34 [7] Subset 4 tasks
+2016-10-06 16:07:34 [7] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:07:34 [7] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:07:34 [7] Serviced in 0.005061s
+2016-10-06 16:07:34 [8] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56712
+2016-10-06 16:07:34 [8] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 16:07:34 [8] Loaded 5 records
+2016-10-06 16:07:34 [8] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 16:07:34 [8] Subset 0 tasks
+2016-10-06 16:07:34 [8] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:07:34 [8] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:07:34 [8] No change
+2016-10-06 16:07:34 [8] Serviced in 0.001085s
+2016-10-06 16:09:11 [9] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56714
+2016-10-06 16:09:11 [9] Client key '' + 0 txns
+2016-10-06 16:09:11 [9] Loaded 5 records
+2016-10-06 16:09:11 [9] Subset 4 tasks
+2016-10-06 16:09:11 [9] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:09:11 [9] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:09:11 [9] Serviced in 0.004456s
+2016-10-06 16:09:12 [10] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56716
+2016-10-06 16:09:12 [10] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 16:09:12 [10] Loaded 5 records
+2016-10-06 16:09:12 [10] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 16:09:12 [10] Subset 0 tasks
+2016-10-06 16:09:12 [10] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:09:12 [10] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:09:12 [10] No change
+2016-10-06 16:09:12 [10] Serviced in 0.001035s
+2016-10-06 16:09:12 [11] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56718
+2016-10-06 16:09:12 [11] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 16:09:12 [11] Loaded 5 records
+2016-10-06 16:09:12 [11] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 16:09:12 [11] Subset 0 tasks
+2016-10-06 16:09:12 [11] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:09:12 [11] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:09:12 [11] No change
+2016-10-06 16:09:12 [11] Serviced in 0.000898s
+2016-10-06 16:11:29 [12] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56720
+2016-10-06 16:11:29 [12] Client key '' + 0 txns
+2016-10-06 16:11:29 [12] Loaded 5 records
+2016-10-06 16:11:29 [12] Subset 4 tasks
+2016-10-06 16:11:29 [12] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:11:29 [12] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:11:29 [12] Serviced in 0.004772s
+2016-10-06 16:11:29 [13] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56722
+2016-10-06 16:11:29 [13] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 16:11:29 [13] Loaded 5 records
+2016-10-06 16:11:29 [13] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 16:11:29 [13] Subset 0 tasks
+2016-10-06 16:11:29 [13] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:11:29 [13] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:11:29 [13] No change
+2016-10-06 16:11:29 [13] Serviced in 0.001165s
+2016-10-06 16:12:48 [14] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56724
+2016-10-06 16:12:48 [14] Client key '' + 0 txns
+2016-10-06 16:12:48 [14] Loaded 5 records
+2016-10-06 16:12:48 [14] Subset 4 tasks
+2016-10-06 16:12:48 [14] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:12:48 [14] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:12:48 [14] Serviced in 0.005176s
+2016-10-06 16:12:48 [15] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56726
+2016-10-06 16:12:48 [15] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 16:12:48 [15] Loaded 5 records
+2016-10-06 16:12:48 [15] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 16:12:48 [15] Subset 0 tasks
+2016-10-06 16:12:48 [15] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:12:48 [15] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:12:48 [15] No change
+2016-10-06 16:12:48 [15] Serviced in 0.000887s
+2016-10-06 16:12:48 [16] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56728
+2016-10-06 16:12:48 [16] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 16:12:48 [16] Loaded 5 records
+2016-10-06 16:12:48 [16] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 16:12:48 [16] Subset 0 tasks
+2016-10-06 16:12:48 [16] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:12:48 [16] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:12:48 [16] No change
+2016-10-06 16:12:48 [16] Serviced in 0.000955s
+2016-10-06 16:14:51 [17] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56730
+2016-10-06 16:14:51 [17] Client key '' + 0 txns
+2016-10-06 16:14:51 [17] Loaded 5 records
+2016-10-06 16:14:51 [17] Subset 4 tasks
+2016-10-06 16:14:51 [17] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:14:51 [17] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:14:51 [17] Serviced in 0.004787s
+2016-10-06 16:14:51 [18] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56732
+2016-10-06 16:14:51 [18] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 16:14:51 [18] Loaded 5 records
+2016-10-06 16:14:51 [18] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 16:14:51 [18] Subset 0 tasks
+2016-10-06 16:14:51 [18] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:14:51 [18] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:14:51 [18] No change
+2016-10-06 16:14:51 [18] Serviced in 0.001307s
+2016-10-06 16:14:51 [19] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56734
+2016-10-06 16:14:51 [19] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 16:14:51 [19] Loaded 5 records
+2016-10-06 16:14:51 [19] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 16:14:51 [19] Subset 0 tasks
+2016-10-06 16:14:51 [19] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:14:51 [19] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:14:51 [19] No change
+2016-10-06 16:14:51 [19] Serviced in 0.001195s
+2016-10-06 16:15:44 [20] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56736
+2016-10-06 16:15:44 [20] Client key '' + 0 txns
+2016-10-06 16:15:44 [20] Loaded 5 records
+2016-10-06 16:15:44 [20] Subset 4 tasks
+2016-10-06 16:15:44 [20] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:15:44 [20] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:15:44 [20] Serviced in 0.005074s
+2016-10-06 16:15:44 [21] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56738
+2016-10-06 16:15:44 [21] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 16:15:44 [21] Loaded 5 records
+2016-10-06 16:15:44 [21] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 16:15:44 [21] Subset 0 tasks
+2016-10-06 16:15:44 [21] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:15:44 [21] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:15:44 [21] No change
+2016-10-06 16:15:44 [21] Serviced in 0.001203s
+2016-10-06 16:15:45 [22] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56740
+2016-10-06 16:15:45 [22] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 16:15:45 [22] Loaded 5 records
+2016-10-06 16:15:45 [22] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 16:15:45 [22] Subset 0 tasks
+2016-10-06 16:15:45 [22] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:15:45 [22] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:15:45 [22] No change
+2016-10-06 16:15:45 [22] Serviced in 0.001487s
+2016-10-06 16:17:21 [23] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56742
+2016-10-06 16:17:21 [23] Client key '' + 0 txns
+2016-10-06 16:17:21 [23] Loaded 5 records
+2016-10-06 16:17:21 [23] Subset 4 tasks
+2016-10-06 16:17:21 [23] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:17:21 [23] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:17:21 [23] Serviced in 0.004744s
+2016-10-06 16:17:21 [24] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56744
+2016-10-06 16:17:21 [24] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 16:17:21 [24] Loaded 5 records
+2016-10-06 16:17:21 [24] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 16:17:21 [24] Subset 0 tasks
+2016-10-06 16:17:21 [24] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:17:21 [24] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:17:21 [24] No change
+2016-10-06 16:17:21 [24] Serviced in 0.001192s
+2016-10-06 16:17:21 [25] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56746
+2016-10-06 16:17:21 [25] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 16:17:21 [25] Loaded 5 records
+2016-10-06 16:17:21 [25] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 16:17:21 [25] Subset 0 tasks
+2016-10-06 16:17:21 [25] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:17:21 [25] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:17:21 [25] No change
+2016-10-06 16:17:21 [25] Serviced in 0.001060s
+2016-10-06 16:57:34 [26] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56748
+2016-10-06 16:57:34 [26] Client key '' + 0 txns
+2016-10-06 16:57:34 [26] Loaded 5 records
+2016-10-06 16:57:34 [26] Subset 4 tasks
+2016-10-06 16:57:34 [26] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:57:34 [26] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:57:34 [26] Serviced in 0.005209s
+2016-10-06 16:57:34 [27] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56750
+2016-10-06 16:57:34 [27] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 16:57:34 [27] Loaded 5 records
+2016-10-06 16:57:34 [27] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 16:57:34 [27] Subset 0 tasks
+2016-10-06 16:57:34 [27] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:57:34 [27] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:57:34 [27] No change
+2016-10-06 16:57:34 [27] Serviced in 0.001076s
+2016-10-06 16:57:34 [28] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56752
+2016-10-06 16:57:34 [28] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 16:57:34 [28] Loaded 5 records
+2016-10-06 16:57:34 [28] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 16:57:34 [28] Subset 0 tasks
+2016-10-06 16:57:34 [28] Stored 0 tasks, merged 0 tasks
+2016-10-06 16:57:34 [28] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 16:57:34 [28] No change
+2016-10-06 16:57:34 [28] Serviced in 0.001463s
+2016-10-06 17:11:52 [29] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56754
+2016-10-06 17:11:52 [29] Client key '' + 0 txns
+2016-10-06 17:11:52 [29] Loaded 5 records
+2016-10-06 17:11:52 [29] Subset 4 tasks
+2016-10-06 17:11:52 [29] Stored 0 tasks, merged 0 tasks
+2016-10-06 17:11:52 [29] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 17:11:52 [29] Serviced in 0.005278s
+2016-10-06 17:11:52 [30] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56756
+2016-10-06 17:11:52 [30] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 17:11:52 [30] Loaded 5 records
+2016-10-06 17:11:52 [30] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 17:11:52 [30] Subset 0 tasks
+2016-10-06 17:11:52 [30] Stored 0 tasks, merged 0 tasks
+2016-10-06 17:11:52 [30] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 17:11:52 [30] No change
+2016-10-06 17:11:52 [30] Serviced in 0.001083s
+2016-10-06 17:11:52 [31] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56758
+2016-10-06 17:11:52 [31] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 17:11:52 [31] Loaded 5 records
+2016-10-06 17:11:52 [31] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 17:11:52 [31] Subset 0 tasks
+2016-10-06 17:11:52 [31] Stored 0 tasks, merged 0 tasks
+2016-10-06 17:11:52 [31] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 17:11:52 [31] No change
+2016-10-06 17:11:52 [31] Serviced in 0.001232s
+2016-10-06 17:13:08 [32] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56760
+2016-10-06 17:13:08 [32] Client key '' + 0 txns
+2016-10-06 17:13:08 [32] Loaded 5 records
+2016-10-06 17:13:08 [32] Subset 4 tasks
+2016-10-06 17:13:08 [32] Stored 0 tasks, merged 0 tasks
+2016-10-06 17:13:08 [32] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 17:13:08 [32] Serviced in 0.008034s
+2016-10-06 17:13:08 [33] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56762
+2016-10-06 17:13:08 [33] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 17:13:08 [33] Loaded 5 records
+2016-10-06 17:13:08 [33] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 17:13:08 [33] Subset 0 tasks
+2016-10-06 17:13:08 [33] Stored 0 tasks, merged 0 tasks
+2016-10-06 17:13:08 [33] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 17:13:08 [33] No change
+2016-10-06 17:13:08 [33] Serviced in 0.003301s
+2016-10-06 17:13:09 [34] 'sync' from 'private/user' using 'taskd 1.0.0' at 172.17.0.1:56764
+2016-10-06 17:13:09 [34] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 0 txns
+2016-10-06 17:13:09 [34] Loaded 5 records
+2016-10-06 17:13:09 [34] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-10-06 17:13:09 [34] Subset 0 tasks
+2016-10-06 17:13:09 [34] Stored 0 tasks, merged 0 tasks
+2016-10-06 17:13:09 [34] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-10-06 17:13:09 [34] No change
+2016-10-06 17:13:09 [34] Serviced in 0.001115s
+2016-10-11 00:02:20 ==== taskd 1.1.0 8b19636 ====
+2016-10-11 00:02:20 Serving from /var/taskd
+2016-10-11 00:02:20 Using address 0.0.0.0
+2016-10-11 00:02:20 Using port 53589
+2016-10-11 00:02:20 Using family 
+2016-10-11 00:02:20 Queue size 10 requests
+2016-10-11 00:02:20 Request size limit 1048576 bytes
+2016-10-11 00:02:20 IP logging on
+2016-10-11 00:02:20 CA          /var/taskd/ca.cert.pem
+2016-10-11 00:02:20 Certificate /var/taskd/server.cert.pem
+2016-10-11 00:02:20 Private Key /var/taskd/server.key.pem
+2016-10-11 00:02:20 CRL         /var/taskd/server.crl.pem
+2016-10-11 00:02:20 Server starting
+2016-10-11 00:02:21 Server ready
+2016-11-12 19:24:23 ==== taskd 1.1.0 8b19636 ====
+2016-11-12 19:24:23 Serving from /var/taskd
+2016-11-12 19:24:23 Using address 0.0.0.0
+2016-11-12 19:24:23 Using port 53589
+2016-11-12 19:24:23 Using family 
+2016-11-12 19:24:23 Queue size 10 requests
+2016-11-12 19:24:23 Request size limit 1048576 bytes
+2016-11-12 19:24:23 IP logging on
+2016-11-12 19:24:23 CA          /var/taskd/ca.cert.pem
+2016-11-12 19:24:23 Certificate /var/taskd/server.cert.pem
+2016-11-12 19:24:23 Private Key /var/taskd/server.key.pem
+2016-11-12 19:24:23 CRL         /var/taskd/server.crl.pem
+2016-11-12 19:24:23 Server starting
+2016-11-12 19:24:23 Server ready
+2016-11-12 19:24:46 [1] 'sync' from 'private/user' using 'task 2.5.1' at 172.17.0.1:56758
+2016-11-12 19:24:46 [1] Client key '' + 0 txns
+2016-11-12 19:24:46 [1] Loaded 5 records
+2016-11-12 19:24:46 [1] Subset 4 tasks
+2016-11-12 19:24:46 [1] Stored 0 tasks, merged 0 tasks
+2016-11-12 19:24:46 [1] Sync key 'b8093c3b-bab5-47ca-a292-092beffb3951' still valid
+2016-11-12 19:24:46 [1] Serviced in 0.001066s
+2016-11-12 19:25:27 [2] 'sync' from 'private/user' using 'task 2.5.1' at 172.17.0.1:56760
+2016-11-12 19:25:27 [2] Client key 'b8093c3b-bab5-47ca-a292-092beffb3951' + 4 txns
+2016-11-12 19:25:27 [2] Loaded 5 records
+2016-11-12 19:25:27 [2] Branch point: b8093c3b-bab5-47ca-a292-092beffb3951 --> 4
+2016-11-12 19:25:27 [2] Subset 0 tasks
+2016-11-12 19:25:27 [2] Stored 4 tasks, merged 0 tasks
+2016-11-12 19:25:27 [2] New sync key 'c91c5e60-04e3-4c56-9e91-a0cc3be6981a'
+2016-11-12 19:25:27 [2] Wrote 5
+2016-11-12 19:25:27 [2] Serviced in 0.001610s
