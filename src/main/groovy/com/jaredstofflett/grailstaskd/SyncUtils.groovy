@@ -126,6 +126,9 @@ throw new TaskElementNotHandledException(s)
 }
 }
         def task = Task.findByUuidAndUser(t.uuid, t.user)
+        if (t.status=="deleted" && task!=null) {
+            return task.delete(flush:true)
+        }
         t.entry = stringToDate(t.entry)
         t.modified = stringToDate(t.modified)
         t.end = stringToDate(t.end)
