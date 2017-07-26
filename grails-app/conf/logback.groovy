@@ -15,14 +15,14 @@ appender('STDOUT', ConsoleAppender) {
 }
 
 appender("ROLLING", RollingFileAppender) {
-  encoder(PatternLayoutEncoder) {
-      pattern = "%level %logger - %msg%n"
-  }
-  rollingPolicy(TimeBasedRollingPolicy) {
-      fileNamePattern = "${HOME_DIR}/logs/myApp-%d{yyyy-MM-dd_HH-mm}.log"
-      maxHistory = 30
-      totalSizeCap = FileSize.valueOf("2GB")
-  }
+    encoder(PatternLayoutEncoder) {
+        pattern = "%level %logger - %msg%n"
+    }
+    rollingPolicy(TimeBasedRollingPolicy) {
+        fileNamePattern = "${HOME_DIR}/logs/myApp-%d{yyyy-MM-dd_HH-mm}.log"
+        maxHistory = 30
+        totalSizeCap = FileSize.valueOf("2GB")
+    }
 }
 
 def targetDir = BuildSettings.TARGET_DIR
@@ -40,5 +40,5 @@ if (Environment.isDevelopmentMode() && targetDir != null) {
 }
 else {
     root(ERROR, ['ROLLING'])
-logger 'com.jaredstofflett.grailstaskd', ERROR, ['ROLLING'],false
+    logger 'com.jaredstofflett.grailstaskd', ERROR, ['ROLLING'],false
 }

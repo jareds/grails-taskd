@@ -35,7 +35,7 @@ class TaskController {
     }
 
     def create() {
-	   respond new Task(params)
+        respond new Task(params)
     }
 
     @Transactional
@@ -45,13 +45,13 @@ class TaskController {
             notFound()
             return
         }
-		def curDate=new Date()
-task.user=springSecurityService.currentUser
-		task.entry=curDate
-		task.modified=curDate
-		task.uuid=UUID.randomUUID().toString()
+        def curDate=new Date()
+        task.user=springSecurityService.currentUser
+        task.entry=curDate
+        task.modified=curDate
+        task.uuid=UUID.randomUUID().toString()
         task.status="pending"
-task.validate() //Required since we manually set some propertys that hasErrors doesn't know about with out this call
+        task.validate() //Required since we manually set some propertys that hasErrors doesn't know about with out this call
         if (task.hasErrors()) {
             transactionStatus.setRollbackOnly()
             respond task.errors, view: 'create'
@@ -60,7 +60,7 @@ task.validate() //Required since we manually set some propertys that hasErrors d
 
         task.save flush: true, failOnError:true
         SyncUtils.syncTasks(springSecurityService.currentUser)
-                redirect uri:"/"
+        redirect uri:"/"
     }
 
     def edit(Task task) {

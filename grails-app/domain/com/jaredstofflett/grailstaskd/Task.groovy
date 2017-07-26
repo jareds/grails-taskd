@@ -14,8 +14,8 @@ class Task implements Serializable {
     String mask
     String parent
     String recur
-static hasMany = [tags: String]
-            static constraints = {
+    static hasMany = [tags: String]
+    static constraints = {
         project nullable: true
         end nullable: true
         parent nullable: true

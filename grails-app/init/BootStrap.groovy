@@ -6,7 +6,7 @@ import grails.core.GrailsApplication
 class BootStrap {
     GrailsApplication grailsApplication
     def init = { servletContext ->
-    TimeZone.setDefault(TimeZone.getTimeZone("UTC")) //nTaskd uses UTC so we need to for date comparrisons to work
+        TimeZone.setDefault(TimeZone.getTimeZone("UTC")) //nTaskd uses UTC so we need to for date comparrisons to work
         def dm = new DateMarshaller()
         dm.register()
         def tm = new TaskMarshaller()
