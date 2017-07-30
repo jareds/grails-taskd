@@ -4,7 +4,7 @@
         <g:each var="task" in="${taskList}">
             <tr>
                 <g:if test="${task.status !='deleted' && task.status!='recurring'}">
-                    <td><g:checkBox name="completeTasks" value="${task.uuid}" checked="${false}"/>
+                    <td><g:checkBox name="completeTasks" value="${task.uuid}" checked="${false}"/></td>
                     </g:if>
                     <g:else>
                     <td></td>
