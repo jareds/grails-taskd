@@ -1,4 +1,4 @@
-<g:form action="complete">
+<g:form controller="task" action="complete">
     <table >
         <tr><td>complete</td><td>description</td><td>project</td><td>due</td><td>status</td></tr>
         <g:each var="task" in="${taskList}">
