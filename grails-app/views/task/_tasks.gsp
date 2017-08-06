@@ -1,6 +1,10 @@
 <g:form controller="task" action="complete">
     <table >
-        <tr><td>complete</td><td>description</td><td>project</td><td>due</td><td>status</td></tr>
+<caption>Task list</caption>    
+<thead>
+        <tr><th scope="col">complete</th><th scope="col">description</th><th scope="col">project</th><th scope="col">due</th><th scope="col">status</th></tr>
+        </thead>
+        <tbody>
         <g:each var="task" in="${taskList}">
             <tr>
                 <g:if test="${task.status !='deleted' && task.status!='recurring'}">
@@ -14,6 +18,7 @@
                 <td>${task.status}</td>
             </tr>
         </g:each>
+</tbody>
     </table>
     <g:submitButton name="complete" value="complete" />
 </g:form>
