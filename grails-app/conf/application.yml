@@ -29,9 +29,9 @@ environments:
                 org: private
                 taskUser: user
                 taskUserKey: fa31f20e-b31c-4cfd-95ce-ad5dc7be7788
-                caCert: docker/taskd/ca.cert.pem
-                userCert: docker/taskd/user.cert.pem
-                userKey: docker/taskd/user.key.pem
+                caCert: devTaskdDocker/taskd/ca.cert.pem
+                userCert: devTaskdDocker/taskd/user.cert.pem
+                userKey: devTaskdDocker/taskd/user.key.pem
     test:
         dataSource:
             dbCreate: update
