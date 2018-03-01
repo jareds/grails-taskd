@@ -1,5 +1,5 @@
 # grails-taskd
-This repository is no longer under active development since I've fount [Remember the Milk](https://www.rememberthemilk.com) with it's iOS app and [rtm-cli](https://github.com/dwaring87/rtm-cli) to be a better fit for me then Taskwarrior.
+This repository is no longer under active development since I've found [Remember the Milk](https://www.rememberthemilk.com) with it's iOS app and [rtm-cli](https://github.com/dwaring87/rtm-cli) to be a better fit for me then Taskwarrior.
 This repository was mainly a learning exercise to familiarize my self with Grails 3. It is a web based front end to [taskd](https://tasktools.org/projects/taskd.html)
 
 
